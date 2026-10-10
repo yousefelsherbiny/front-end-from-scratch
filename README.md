@@ -1,4 +1,4 @@
-# [Frontend Developer Roadmap & Task Tracker 📦](https://github.com/yousefelsherbiny/yousefelsherbiny/front-end-from-scratch)
+# [Frontend Developer Roadmap & Task Tracker 📦](https://github.com/yousefelsherbiny/front-end-from-scratch)
 
 Maintained by **Yousef Elsherbiny** ([GitHub](https://github.com/yousefelsherbiny))  
 Inspired by the developer community and modern industry standards.
@@ -10,6 +10,32 @@ Inspired by the developer community and modern industry standards.
 1. Work through each milestone sequentially.
 2. Mark topics complete as you understand them (`[x]`).
 3. Complete the practical tasks and replace `[Solution](#)` with the URL to your live demo or repository.
+
+Example:
+- [x] Responsive GitHub explorer built with Vite & Tailwind CSS --> [Solution](#)
+
+---
+
+## Phase 0: Computer Literacy & OS Fundamentals (Windows Focus)
+
+Designed for absolute beginners to establish confidence navigating the operating system, file system, and terminal before writing code.
+
+### Windows Essentials & Navigation
+- [ ] Essential productivity shortcuts (`Win + X`, `Win + V`, `Alt + Tab`, `Ctrl + Shift + Esc`, `Win + Shift + S`)
+- [ ] File Explorer mastery: Showing hidden files and file extensions (`.html`, `.js`, `.json` instead of hiding them)
+- [ ] File paths and directory structure (absolute vs. relative paths, drives `C:\`, user directories)
+- [ ] Archive management: Compressing and extracting `.zip`, `.tar.gz` archives
+
+### Terminal & System Configuration
+- [ ] Understanding Command Prompt (cmd) vs. PowerShell vs. Git Bash / WSL
+- [ ] Basic CLI navigation: `cd`, `ls` / `dir`, `mkdir`, `rm` / `del`, `cp` / `copy`, `mv`
+- [ ] Understanding System & User Environment Variables (specifically setting and inspecting `PATH`)
+- [ ] Package managers for Windows: Installing software using `winget`
+- [ ] Setting up a clean developer workspace: Installing VS Code, Git, and configuring Windows Terminal
+
+### Practical Tasks
+- [ ] **Terminal Navigation Drill:** Using only PowerShell or Git Bash, create a folder structure `workspace/projects/my-first-site`, generate an empty `index.html` file inside it, list its details, and open it directly in VS Code from the CLI (`code .`). --> [Solution](#)
+- [ ] **Path Inspection:** Verify Node.js and Git installations via terminal flags (`git --version`, `node -v`) and trace their executable locations using `where git` / `where node`. --> [Solution](#)
 
 ---
 
@@ -153,6 +179,28 @@ Inspired by the developer community and modern industry standards.
 
 ---
 
-## Contribution & License
+## Phase 7: AI-Assisted Engineering & LLM Integration
 
-Maintained with ❤️ by [Yousef Elsherbiny](https://github.com/yousefelsherbiny). Licensed under the [MIT License](LICENSE).
+Modern frontend developers use AI both to multiply their personal velocity and to build user-facing intelligent features.
+
+### AI-Powered Developer Workflow
+- [ ] In-editor AI tools: GitHub Copilot, Cursor, and Supermaven
+- [ ] Context grounding: Creating repository instruction files (`.cursorrules`, system prompts)
+- [ ] Automated review: Using AI agents for test generation, refactoring, and PR diff summaries
+
+### Building AI-Driven Frontend Applications
+- [ ] Core LLM concepts: Tokens, temperature, context windows, and latency trade-offs
+- [ ] Streaming user interfaces: Consuming chunked responses with Server-Sent Events (SSE) and the Fetch Streams API
+- [ ] Leveraging the **Vercel AI SDK** (`useChat`, `useCompletion`, React Server Components integration)
+- [ ] Structured outputs & Function Calling: Parsing model responses into schema-validated JSON with **Zod**
+- [ ] UI patterns for generative experiences: Optimistic updates, stream cancelation, citation tooltips, and skeleton feedback
+
+### Practical Tasks
+- [ ] **Streaming Chat Interface:** Build an AI assistant with markdown rendering, real-time token streaming, copyable code blocks, and conversation history persistence. --> [Solution](#)
+- [ ] **Generative Component Builder:** Create an interface where user prompts generate structured JSON to dynamically render live React UI widgets on the fly. --> [Solution](#)
+
+---
+
+## Contributions
+
+Maintained with ❤️ by [Yousef Elsherbiny](https://github.com/yousefelsherbiny)
