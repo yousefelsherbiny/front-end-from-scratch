@@ -11,9 +11,6 @@ Inspired by the developer community and modern industry standards.
 2. Mark topics complete as you understand them (`[x]`).
 3. Complete the practical tasks and replace `[Solution](#)` with the URL to your live demo or repository.
 
-Example:
-- [x] Responsive GitHub explorer built with Vite & Tailwind CSS --> [Solution](https://github.com/yousefelsherbiny/repo-explorer)
-
 ---
 
 ## Phase 1: Foundations (HTML, Modern CSS & Core JavaScript)
