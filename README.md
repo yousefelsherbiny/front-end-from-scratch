@@ -1,4 +1,4 @@
-# [Frontend Developer Roadmap & Task Tracker 📦](https://github.com/yousefelsherbiny/frontend-roadmap)
+# [Frontend Developer Roadmap & Task Tracker 📦](https://github.com/yousefelsherbiny/yousefelsherbiny/front-end-from-scratch)
 
 Maintained by **Yousef Elsherbiny** ([GitHub](https://github.com/yousefelsherbiny))  
 Inspired by the developer community and modern industry standards.
